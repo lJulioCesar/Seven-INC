@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+  
+.container {
+  overflow-x: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+
+tr {
+  max-width: 125px;
+  min-width: 125px;
+  padding: 0 !important;
+  overflow-x: auto;
+  white-space: nowrap;
+  text-align: center !important;
+}
+
+
+@media (min-width: 769px) and (max-width: 1170px){
+
+  .MuiOutlinedInput-root {
+    max-width: 100%!important;
+}
+
+.makeStyles-DialogWrapper-24 {
+  width: 45%!important;
+}
+
+.SideMenu-sideMenu-4 {
+  width: 250px;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 769px){
+
+.SideMenu-sideMenu-4 {
+    display: none!important;
+}
+
+.makeStyles-DialogWrapper-24 {
+  width: 50%!important;
+}
+
+.makeStyles-newButton-9 {
+  left: 30px;
+  position: relative!important;
+}
+
+.makeStyles-appMain-1 {
+  padding-left: 0!important;
+}
+
+}
+
+@media (min-width: 769px){
+
+  #menuIcon {
+    display: none;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 600px){
+
+  .button-form{
+    display: flex;
+  }
+
+  .makeStyles-DialogWrapper-24 {
+    width: 70%!important;
+  }
+
+  .MuiFormControl-root {
+    min-width: 920%!important;
+}
+
+.MuiGrid-container {
+  flex-direction: column;
+}
+
+.MuiButton-containedSizeLarge {
+  min-width: 445%!important;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  .makeStyles-DialogWrapper-24 {
+    width: 90%!important;
+    top: 60px!important;
+    height: 750px;
+  }
+
+  .MuiFormControl-root {
+    min-width: 920%!important;
+}
+
+  .MuiOutlinedInput-root {
+    max-width: 100%!important;
+}
+  .MuiGrid-container {
+    flex-direction: column;
+  }
+  .button-form{
+    display:flex;
+  }
+  .MuiButton-containedSizeLarge {
+    min-width: 445%!important;
+}
+}
